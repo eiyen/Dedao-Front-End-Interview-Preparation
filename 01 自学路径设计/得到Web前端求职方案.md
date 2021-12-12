@@ -55,7 +55,7 @@ flowchart LR
 	g --对其进行--> 方案讨论 & 技术调研 & 系统分析 & 重构 & 优化
 ```
 
-P.S. 中间的推导过程，放在了[2021年12月12日的编程日记](..\03 编程日记\2021-12-12.md)中。
+P.S. 中间的推导过程，放在了[2021年12月12日的编程日记](https://github.com/eiyen/Dedao-Front-End-Interview-Preparation/blob/master/03%20%E7%BC%96%E7%A8%8B%E6%97%A5%E8%AE%B0/2021-12-12.md)中。
 
 ## 三、执行方案
 
