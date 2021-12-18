@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* 
+        a:hover {
+          background-color: #6b8bc7;
+        }
+        
+        The above code snippet can't be used in the internal CSS.
+      */
+    </style>
+  </head>
+  <body>
+    <div
+      style="
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      "
+    >
+      <!-- 
+        I don't know why the translate can align things center.
+        I searched the solution in https://www.w3schools.com/howto/howto_css_center-vertical.asp 
+    -->
+      <h1
+        style="
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          text-align: center;
+          margin-bottom: 25px;
+          color: #4e74bc;
+          font-size: 32px;
+        "
+      >
+        My Homepage and Color Gradient
+      </h1>
+      <iframe
+        src="https://eiyen.github.io/"
+        frameborder="1"
+        style="
+          width: 50vw;
+          height: 50vh;
+          display: block;
+          position: fix;
+          margin: auto;
+        "
+        name="iframe"
+      ></iframe>
+      <p style="text-align: center; margin-top: 25px">
+        <a
+          href="https://eiyen.github.io/color-gradient/"
+          target="iframe"
+          style="
+            font-size: 22px;
+            font-weight: 400;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: inline-block;
+            margin-right: 15px;
+            background-color: #385894;
+            text-decoration: none;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px #385894;
+          "
+          >Switch to Color Gradient
+        </a>
+        <a
+          href="https://eiyen.github.io/"
+          style="
+            font-size: 22px;
+            font-weight: 400;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: inline-block;
+            margin-left: 15px;
+            background-color: #385894;
+            text-decoration: none;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px #385894;
+          "
+          target="iframe"
+          >Switch to Homepage</a
+        >
+      </p>
+    </div>
+  </body>
+</html>
