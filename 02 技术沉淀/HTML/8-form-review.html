@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      label,
+      legend {
+        font-size: larger;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="https://eiyen.github.io/">
+      <fieldset>
+        <legend>My practice of HTML form</legend>
+        <br />
+        <label>1. Five kinds of input element: </label>
+        <input type="text" placeholder="Text" />
+        <input type="radio" />
+        <input type="checkbox" />
+        <a href="https://eiyen.github.io/"
+          ><input type="button" value="Button"
+        /></a>
+        <input type="submit" />
+        <br />
+        <br />
+        <label for="select">2. Select element:</label>
+        <select name="select" id="select">
+          <option value="sample1">sample1</option>
+          <option value="sample2">sample2</option>
+          <option value="sample3">sample3</option>
+        </select>
+        <br />
+        <br />
+        <label for="textarea">3. Textarea element:</label>
+        <br />
+        <textarea
+          name="textarea"
+          id="textarea"
+          cols="30"
+          rows="10"
+          placeholder="Textarea"
+        ></textarea>
+        <br />
+        <br />
+        <label for="datalist">4. Datalist Element:</label>
+        <input
+          list="data-list"
+          id="datalist"
+          placeholder="Input a word strated from A to E"
+          style="width: 250px"
+        />
+        <datalist id="data-list">
+          <option value="apple">apple</option>
+          <option value="banana">banana</option>
+          <option value="brain">brain</option>
+          <option value="can">can</option>
+          <option value="California">California</option>
+          <option value="default">default</option>
+          <option value="detect">detect</option>
+          <option value="element">element</option>
+          <option value="electricity">electricity</option>
+        </datalist>
+        <br />
+        <br />
+      </fieldset>
+    </form>
+  </body>
+</html>
