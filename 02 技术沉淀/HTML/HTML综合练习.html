@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <title>HTML综合练习</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px 15px;
+        text-align: center;
+      }
+      table {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      a {
+        text-decoration: none;
+      }
+      a.iframeLink {
+        background-color: powderblue;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: inline-block;
+        border-radius: 5px;
+        margin: 10px 15px;
+      }
+      fieldset {
+        margin: 0px auto 35vh auto;
+        width: 600px;
+        padding: 20px 30px;
+        box-sizing: border-box;
+      }
+      label {
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HTML综合练习</h1>
+    <h2>一、文本格式化</h2>
+    <h3
+      style="
+        margin-bottom: 0px;
+        text-align: center;
+        font-size: 26px;
+        line-height: 0.2;
+        color: cadetblue;
+      "
+    >
+      一首小诗
+    </h3>
+    <pre style="text-align: center; font-size: 20px; line-height: 1.7">
+  <strong style="margin-top: 0;">你好HTML，</strong>
+  <em>很高兴遇见你。</em>
+  <u>这是我学习前端的第一站，</u>
+  <mark>祝未来顺利！</mark>
+    </pre>
+    <h2>二、表格</h2>
+    <table>
+      <caption style="font-size: 23px; margin-bottom: 10px; font-weight: 600">
+        我最喜欢的得到课程和书籍
+      </caption>
+      <tr>
+        <th>序号</th>
+        <th>课程名称</th>
+        <th>讲师姓名</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>
+          <a
+            href="https://www.dedao.cn/trainingCamp/detail/ojMGzeDmENKGVY6qWM9xR0AD3dy48zQeAkQ2bagZOrvLlojXnm7ek51BJ64nkVBL?type=trainingcamp"
+            target="_blank"
+            >沟通训练营</a
+          >
+        </td>
+        <td rowspan="3">脱不花</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>
+          <a
+            href="https://www.dedao.cn/course/LZ1RgB0EW3NK0wjsLbXkP7vj68pDeA"
+            target="_blank"
+            >怎样成为高效学习的人</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>
+          <a
+            href="https://www.dedao.cn/eBook/5lZOKpMGr9mgdOvYa6Ej75XRo1NML3jzvm3k8ZVzb2nqPpDxBeJlK4AyQ8RPQv2z"
+            target="_blank"
+            >《沟通的方法》</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>
+          <a
+            href="https://www.dedao.cn/course/9LnlWEqDj76VzmMsvNKmOA4epMBPxa"
+            target="_blank"
+          >
+            超级个体
+          </a>
+        </td>
+        <td>古典</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>
+          <a
+            href="https://www.dedao.cn/course/qBr4kj5gLNYKNdPsyvJdemExy36GaA"
+            target="_blank"
+            >通往财富自由之路</a
+          >
+        </td>
+        <td>李笑来</td>
+      </tr>
+    </table>
+    <h2>三、内联框架</h2>
+    <iframe
+      src="https://eiyen.github.io"
+      frameborder="1"
+      style="
+        display: block;
+        margin: 0 auto;
+        width: 600px;
+        height: 400px;
+        border: 1px solid powderblue;
+      "
+      title="Iframe Sample"
+      name="iframe"
+    ></iframe>
+    <p style="text-align: center">
+      <a class="iframeLink" href="https://eiyen.github.io" target="iframe"
+        >切换到CSS表格</a
+      >
+      <a
+        class="iframeLink"
+        href="https://eiyen.github.io/color-gradient"
+        target="iframe"
+        >切换到颜色渐变</a
+      >
+    </p>
+    <h2>四、表单</h2>
+    <form action="https://www.dedao.cn/">
+      <fieldset>
+        <legend style="font-size: 24px; font-weight: bold">得到用户调研</legend>
+
+        <label for="text">1. Input的五种类型：</label>
+        <input id="text" type="text" placeholder="Input 类型：单行文本框" />
+        <input type="checkbox" />
+        <input type="radio" />
+        <input type="button" value="Button" />
+        <input type="submit" />
+
+        <br />
+        <br />
+
+        <label for="select">2. 选择一位你喜欢的得到老师：</label>
+        <select name="select" id="select">
+          <option value="sample1">脱不花老师</option>
+          <option value="sample2">古典老师</option>
+          <option value="sample3">李笑来老师</option>
+          <option value="sample4">其他老师</option>
+        </select>
+
+        <br />
+        <br />
+
+        <label for="textarea">3. 想对得到说的话：</label>
+        <br />
+        <textarea
+          name="textarea"
+          id="textarea"
+          cols="63"
+          rows="10"
+          placeholder="表格元素：文本域"
+          style="margin-left: 20px; margin-top: 10px;"
+        ></textarea>
+
+        <br />
+        <br />
+
+        <label for="data-list">4. 想学习的得到课程：</label>
+        <input list="datalist" id="data-list" placeholder="Input 与 选项列表" />
+        <datalist id="datalist">
+          <option>5分钟商学院</option>
+          <option>通往财富自由之路</option>
+          <option>超级个体</option>
+          <option>香帅中国财富报告</option>
+          <option>陈海贤·亲密关系30讲</option>
+          <option>陈海贤·自我发展心理学</option>
+          <option>刘擎·西方现代思想</option>
+          <option>吴军·阅读与写作</option>
+          <option>薛兆丰的经济学课</option>
+          <option>万维钢·精英日课</option>
+          <option>前沿课·元宇宙12讲</option>
+        </datalist>
+      </fieldset>
+    </form>
+  </body>
+</html>
