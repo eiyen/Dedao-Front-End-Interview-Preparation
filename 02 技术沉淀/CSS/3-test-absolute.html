@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .sticky {
+        position: sticky;
+        top: 15%;
+      }
+      .absolute {
+        position: absolute;
+        top: 20px;
+        left: 50px;
+      }
+      body {
+        padding: 1% 15%;
+      }
+      p {
+        font: 20px/30px helvetica;
+      }
+      span {
+        font-weight: bold;
+      }
+      .largeBottom {
+        padding-bottom: 1500px;
+      }
+      .bigBottom {
+        padding: 120px 0;
+        text-align: center;
+        vertical-align: auto;
+        background-color: mistyrose;
+      }
+      .mainContent {
+        background-color: oldlace;
+        padding: 10px 20px;
+        margin: 20px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bigBottom">
+      <p>I'm a big space!</p>
+    </div>
+    <div class="mainContent">
+      <div class="sticky">
+        <p>
+          Hello absolute element, I'm <span>sticky</span> element. I'd like to
+          see you!
+        </p>
+        <p class="absolute">
+          Hi I'm <span>absolute</span> element, nice to see you too~
+        </p>
+      </div>
+      <div class="largeBottom"></div>
+    </div>
+  </body>
+</html>
