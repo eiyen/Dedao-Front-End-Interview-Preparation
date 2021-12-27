@@ -1,0 +1,13 @@
+/* Comment .clearfix property to see the difference */
+
+.clearfix {
+  overflow: auto;
+}
+
+img {
+  float: left;
+}
+
+div {
+  border: 3px solid mediumaquamarine;
+}
