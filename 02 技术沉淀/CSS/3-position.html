@@ -1,0 +1,27 @@
+<!-- 
+  Notes:
+  
+  1. Absolut element should be wrapped into the relative element.
+  2. Sticky element shouldn't be wrapped into the same div, or it won't be sticky to the top.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="3-position.css" />
+  </head>
+  <body>
+    <p class="static"><span>static</span> element</p>
+    <div class="relative">
+      <p><span>relative</span> element (relative to the static element)</p>
+      <p class="absolute"><span>absolute</span> element (absolute to relative element)</p>
+    </div>
+    <p class="fixed"><span>fixed</span> element</p>
+    <p class="sticky"><span>sticky</span> element</p>
+    <div class="largePaddingBottom"></div>
+  </body>
+</html>

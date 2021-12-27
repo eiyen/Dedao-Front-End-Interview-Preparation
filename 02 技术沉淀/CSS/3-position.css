@@ -1,0 +1,49 @@
+.static {
+  position: static;
+}
+
+.relative {
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+
+.absolute {
+  position: absolute;
+  bottom: 5px;
+  left: 100px;
+}
+
+.fixed {
+  position: fixed;
+  right: 50%;
+  top: 30%;
+  padding: 5px 10px;
+  background-color: mediumaquamarine;
+  color: white;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  padding: 5px 10px;
+  background-color: mediumseagreen;
+  color: white;
+}
+
+p {
+  font: 20px/30px helvetica;
+  padding: 5px;
+}
+
+.largePaddingBottom {
+  padding-bottom: 1000px;
+}
+
+body {
+  padding: 1% 15%;
+}
+
+span{
+  font-weight: bold;
+}

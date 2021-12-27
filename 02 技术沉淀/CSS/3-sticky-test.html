@@ -1,0 +1,25 @@
+<!-- Sticky element can't be placed in the same div, or it won't be sticked to the top. -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div.sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        padding: 5px;
+        background-color: #cae8ca;
+        border: 2px solid #4caf50;
+      }
+      div.largePadding {
+        padding-bottom: 2000px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>hello</p>
+    <p class="sticky">how are you</p> <!--p can't be wraped in the same div, or the second won't be sticky-->
+    <div class="largePadding"></div>
+  </body>
+</html>
