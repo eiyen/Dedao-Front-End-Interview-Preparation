@@ -1,0 +1,56 @@
+body {
+  background-color: whitesmoke;
+  padding: 1% 25%;
+}
+
+div.table{
+    overflow-x: auto;
+    position: relative;
+    top: 5vh;
+}
+
+table {
+  text-align: center;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: mediumseagreen;
+  color: white;
+  font: bold 16px verdana;
+}
+
+th,
+td {
+  padding: 15px 25px;
+}
+
+td {
+  font: 16px helvetica;
+}
+
+caption {
+  font: bold 24px/36px verdana;
+  color: rgba(34, 139, 34, 0.952);
+  margin-bottom: 3px;
+  /* text-shadow: 1px 1px 1px rgba(34, 139, 34, 0.144); */
+}
+
+tr:nth-child(even) {
+  background-color: rgba(220, 220, 220, 0.575);
+}
+
+/* tr:hover{
+    background-color: rgba(207, 206, 206, 0.925);
+} */
+
+td:hover{
+    background-color: rgba(204, 203, 203, 0.897);
+}
