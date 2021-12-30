@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  font: 24px/40px helvetica;
+}
+
+.fas{
+    color: hsl(240, 30, 50);
+}
+
+body > div{
+    height: 300px;
+    margin: 0 5px;
+}
+
+h2{
+    /* justify-content: center; 使用Justify-content: center无效 */
+    text-align: center;
+}
+
+div i {
+    margin-right: 5px;
+}
+
+.fa-seedling{
+    background-color: mistyrose;
+}
+
+/* span{
+    margin-right: 5px;
+} */
+
+/* div div{
+    display: flex;
+    align-items: center; 使用 align-items: center 无效，需要给div一个固定宽度
+} */
