@@ -1,0 +1,27 @@
+body {
+  padding: 30vh 20%;
+  font: 24px helvetica;
+  text-align: center;
+}
+
+.textLink:hover {
+  text-decoration: none;
+}
+
+.buttonLink {
+  margin: 30px;
+}
+
+.buttonLink a {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(95, 158, 160);
+  color: ghostwhite;
+  font: inherit;
+  text-decoration: none;
+}
+
+.buttonLink a:hover {
+  background-color: rgb(72, 134, 136);
+}
