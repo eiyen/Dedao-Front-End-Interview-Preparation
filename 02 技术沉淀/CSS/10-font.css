@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Spectral:wght@400;500;700&display=swap');
+body{
+    height: 90vh;
+    padding: 0 23%;
+    align-items: center;
+    justify-content: center;
+}
+
+.paring1 h2{
+    font: bold 36px Merriweather, serif;
+}
+
+.paring1 p{
+    font: 24px Open Sans, sans-serif;
+}
+
+.paring2 h2{
+    font: bold 36px Spectral, serif;
+}
+
+.paring2 p{
+    font: 24px Rubik, sans-serif;
+}
+
+h1{
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+hr{
+    border-top: 2px solid rgba(0, 0, 0, 0.5);
+}
