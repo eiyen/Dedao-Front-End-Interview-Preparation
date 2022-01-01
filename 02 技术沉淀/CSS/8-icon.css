@@ -7,7 +7,8 @@ body {
 }
 
 .fas{
-    color: hsl(240, 30, 50);
+    /* color: hsl(240, 30, 50); hsl无法生效，需要使用RGB表示 */
+    color: rgb(49, 49, 59);
 }
 
 body > div{
