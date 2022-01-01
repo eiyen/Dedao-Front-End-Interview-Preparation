@@ -1,0 +1,14 @@
+body{
+    background-image: url(./Source/thermometer-icon.png);
+    background-color: mediumaquamarine;
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 200vh;
+    background-attachment: fixed;
+}
+
+/* Shorthand */
+body{
+    background: mediumaquamarine url(./Source/thermometer-icon.png) center/20vh no-repeat fixed;
+    /* background: color image position/size repeat attachment */
+}
